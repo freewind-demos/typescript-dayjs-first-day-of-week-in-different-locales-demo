@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "demo": "ts-node hello.ts"
+    "start": "ts-node hello.ts"
   },
   "devDependencies": {
     "@types/node": "8.9.5",
@@ -8,7 +8,7 @@
     "typescript": "3.2.2"
   },
   "dependencies": {
-    "dayjs": "1.8.17",
+    "dayjs": "1.11.1",
     "jquery": "3.4.1"
   }
 }

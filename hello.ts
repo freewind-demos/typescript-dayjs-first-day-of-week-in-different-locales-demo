@@ -1,7 +1,9 @@
 import dayjs from 'dayjs';
+import 'dayjs/locale/zh-cn'
 
-const date1 = dayjs('2019-11-22').toDate()
-console.log(date1);
+import localizedFormat from "dayjs/plugin/localizedFormat";
 
-const date2 = dayjs('11/22/2019').toDate()
-console.log(date2);
+dayjs.extend(localizedFormat);
+
+const date = dayjs().locale('zh-cn').format("L");
+console.log(date)
