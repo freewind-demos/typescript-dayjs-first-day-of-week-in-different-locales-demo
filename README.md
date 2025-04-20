@@ -13,6 +13,8 @@ dayjs默认不引入任何locale（以减小体积），如果需要使用某个
 - en: 2025-04-20
 - de: 2025-04-14
 
+另外 dayjs默认内置了en的locale，使用其它locale需要导入，并且通过`dayjs.locale('other')`修改全局设置
+
 ```
 npm install
 npm start
